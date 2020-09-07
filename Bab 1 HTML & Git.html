@@ -3,26 +3,128 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>My Website</title>
 </head>
 
 <body>
+  <h1 id="welcome">Welcome !</h1>
+
   <h1>Lorem ipsum dolor sit amet</h1>
   <p>
-    consectetur adipiscing elit. Integer lacinia condimentum sollicitudin. Vivamus fringilla, magna et tempor tincidunt, justo nisi congue tortor, non luctus lorem felis sed sapien. Nunc imperdiet at mauris id aliquet. Aliquam non lectus a urna
-    laoreet pretium. Vestibulum vulputate nec tortor quis faucibus. Nam laoreet, enim at vestibulum euismod, ipsum dolor ullamcorper nisi, non porttitor arcu arcu ut est.
+    consectetur adipiscing elit. <b> Integer lacinia condimentum sollicitudin. </b> Vivamus fringilla, magna et tempor tincidunt, justo nisi congue tortor, non luctus lorem felis sed sapien. Nunc imperdiet at mauris id aliquet. Aliquam non lectus a
+    urna
+    laoreet pretium. <i> Vestibulum vulputate nec tortor quis faucibus.</i> Nam laoreet, enim at vestibulum euismod, ipsum dolor ullamcorper nisi, non porttitor arcu arcu ut est.
   </p>
 
   <h2>Vestibulum ante ipsum primis in faucibus</h2>
   <p>
-    orci luctus et ultrices posuere cubilia curae; Nunc semper turpis a erat aliquet egestas. Aenean semper ligula eget lacus tincidunt vulputate. In eleifend dapibus justo, ac lobortis felis euismod eu. Curabitur pellentesque, turpis vitae laoreet
-    porttitor, elit libero vulputate ante, in dapibus ante nulla vel metus.
+    <<sup>orci luctus et ultrices posuere cubilia curae;</sup> Nunc semper turpis a erat aliquet egestas. Aenean semper ligula eget lacus tincidunt vulputate. In eleifend dapibus justo, ac lobortis felis euismod eu. Curabitur pellentesque, turpis
+      vitae laoreet
+      porttitor, elit libero vulputate ante, in dapibus ante nulla vel metus.
   </p>
 
   <h3>Phasellus interdum arcu vel tellus ullamcorper</h3>
   <p>
     id facilisis sapien dictum. Sed eleifend commodo aliquam. Aliquam ultrices vitae quam at eleifend. Cras bibendum nisi libero, quis consectetur massa sollicitudin vel.
   </p>
+  <hr>
+  <p>
+    pergantian topik blablablablablablablablablablablablablablablablablablablablablablablabla, <br> pergantian baris
+  </p>
+
+  <h2>Deskripsi seorang saya :</h2>
+  <ol>
+    <li>Pintar</li>
+    <li>Ganteng</li>
+    <li>Jangan Lupa</li>
+    <li>Cek @elhogar_id ya !</li>
+    <li>Barangkali cocok :)</li>
+  </ol>
+
+  <h2>Unordered List</h2>
+  <ul>
+    <li>Ini merupakan</li>
+    <li>List yang</li>
+    <li>Tidak terurut</li>
+    <ul>
+      <li>Ini merupakan</li>
+      <li>Nested List</li>
+    </ul>
+  </ul>
+
+  <h1><a href="https://google.com" target="_blank">Click Me !</a></h1>
+
+  <h2>Mail to DPM FTI UNTAR ! <a href="mailto:dpmftiuntar@fti.untar.ac.id" target="_blank">Click here :)</a></h2>
+
+  <h2><a href="#welcome">Click here to back to the top !</a></h2>
+
+  <h1>Image</h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Schrodingers_cat.svg/330px-Schrodingers_cat.svg.png" alt="schrodinger cat" class="picture" width="50%" height="auto">
+  <p> <strong>Source : </strong> <a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat" target="_blank">Wikipedia</a></p>
+
+  <h1>Figure</h1>
+
+  <figure>
+    <img src="https://brewminate.com/wp-content/uploads/2019/04/042119-27-Ancient-History-Philosophy-Science-Biology-Aristotle-Greek-Greece-768x402.jpg" alt="aristotle" class="picture" width="100%">
+
+    <figcaption>Aristotle himself described his subject matter in a variety of ways: as ‘first philosophy’, or ‘the study of being qua being’, or ‘wisdom’, or ‘theology’. A comment on these descriptions will help to clarify Aristotle’s topic.
+      In Metaphysics Α.1, Aristotle says that “all men suppose what is called wisdom (sophia) to deal with the first causes (aitia) and the principles (archai) of things” (981b28), and it is these causes and principles that he proposes to
+      study
+      in this work. It is his customary practice to begin an inquiry by reviewing the opinions previously held by others, and that is what he does here, as Book Α continues with a history of the thought of his predecessors about causes and
+      principles.</figcaption>
+  </figure>
+
+  <h1>Table</h1>
+
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Nama</th>
+      <th>Jabatan</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Victor</td>
+      <td>IT Supervisor</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sylvia</td>
+      <td>Office Attorney</td>
+    </tr>
+  </table>
 </body>
+
+<h1>Form</h1>
+
+<form action="http://www.example.com/comments.php">
+  <p>Please input your aspiration !</p>
+  <textarea name="aspiration" rows="8" cols="20" placeholder="We're waiting for your aspiration :)"></textarea>
+</form>
+
+<form action="http://www.example.com/profile.php">
+  <p>Please Select your Favourite Country :
+    <br>
+    <input type="radio" name="country" value="ina"> Indonesia
+    <input type="radio" name="country" value="eng"> English
+    <input type="radio" name="country" value="spa"> Spain
+  </p>
+
+  <p>Select the country you want to visit !
+    <br>
+    <input type="checkbox" name="visit" value="kr"> Korea
+    <input type="checkbox" name="visit" value="jpn"> Japan
+    <input type="checkbox" name="visit" value="ch"> China
+  </p>
+
+  <p>What language do you speak ?</p>
+  <select name="languages">
+    <option value="ina">Indonesia</option>
+    <option value="eng">English</option>
+    <option value="spa">Spain</option>
+
+  </select>
+
+</form>
 
 </html>
