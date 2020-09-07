@@ -100,6 +100,7 @@
 <form action="http://www.example.com/comments.php">
   <p>Please input your aspiration !</p>
   <textarea name="aspiration" rows="8" cols="20" placeholder="We're waiting for your aspiration :)"></textarea>
+  <br><br><br>
 </form>
 
 <form action="http://www.example.com/profile.php">
@@ -122,8 +123,27 @@
     <option value="ina">Indonesia</option>
     <option value="eng">English</option>
     <option value="spa">Spain</option>
-
   </select>
+  <br><br>
+</form>
+
+<form action="http://www.example.com/upload.php">
+  <p>Upload your country's flag !</p>
+  <input type="file" name="flag"> <br>
+  <input type="submit" value="Upload">
+
+  <br><br><br><br><br>
+</form>
+
+<form action="http://www.example.com/bookings/" method="post">
+  <label for="concertdate">Concert's Date : </label>
+  <input type="date" name="concertdate"> <br><br>
+
+  <label for="email">Please input an active email address</label>
+  <input type="email" name="email"> <br> <br>
+
+  <label for="phone">Please input an active phone number</label>
+  <input type="number" name="phone">
 
 </form>
 
