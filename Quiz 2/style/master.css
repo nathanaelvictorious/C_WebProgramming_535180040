@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Righteous&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/*-------------------------Content-------------------------*/
+
+body {
+  background-color: #f3aa51;
+  margin: 0;
+  padding: 0;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+p {
+  font-size: 23px;
+  padding: 10px;
+  margin-left: 2%;
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #fff;
+  margin: 5% 10% 10% 10%;
+}
+
+.picture {
+  width : 35%;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+/*-----------------------------Animation------------------------*/
+
+.animated {
+  animation: fadeAndScale 1s cubic-bezier(.81,.14,.11,.8);
+  transform-origin: center bottom;
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+    transform: scale3d(.75, .75, 1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/*--------------------------Social Media----------------------------------*/
+
+footer {
+  width: 100%;
+  padding : 20px 0px;
+  color : white;
+  background-color: #222;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
